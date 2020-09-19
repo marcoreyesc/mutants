@@ -8,6 +8,7 @@ public class FormatdecimalTest {
 		Double doubleVal = new Double("1111111111.0");
 		System.out.println(doubleVal);
 		System.out.println("DECIMAL FORMAR........."+decimalFormat.format(doubleVal));
+		System.out.println("DECIMAL FORMAR........."+decimalFormat.format(doubleVal));
 
 	}
 
