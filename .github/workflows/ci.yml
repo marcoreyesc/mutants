@@ -15,6 +15,6 @@ jobs:
         env: 
           JOB_CONTEXT: ${{ toJson(job) }}
         run: |
-          echo: "job context $JOB_CONTEXT"
-          echo: "Donde!"
+          echo "job context $JOB_CONTEXT"
+          echo "Donde!"
           
